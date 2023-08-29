@@ -1,0 +1,15 @@
+.container {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:625px;
+    height: 38px;
+    padding: 0px 100px 0px 0px;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+}

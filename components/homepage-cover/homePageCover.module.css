@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 663px;
+    /* background-image: url('../public/backgroundModel.png'); */
+}
+
+.leftContainer {
+    padding: 103px 100px;
+    width: 50%;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F0F1;
+}
+
+.imageContainer {
+    width: 50%;
+    display: flex;
+    background-color: #F2F0F1;
+    overflow: hidden;
+}
+
+.modelImage {
+    margin-top: -50px;
+    height: 963px;
+    width: 641px;
+}
+
+.findClothes {
+    width: 577px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    /* 100% */
+}
+
+.description {
+    width: 545px;
+    height: 33px;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.shopNowButton {
+    width: 210px;
+    height: 52px;
+    border-radius: 62px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bottomDesc {
+    display: flex;
+    width: 596px;
+    height: 74px;
+    justify-content: space-between;
+}
+
+.bottomDescTitle {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottomDescDesc {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}

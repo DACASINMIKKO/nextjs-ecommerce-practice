@@ -1,0 +1,76 @@
+.container {
+    background-color: #FFF;
+    padding: 64px 100px 64px 100px;
+    border-bottom: rgba(0, 0, 0, 0.10);
+    border-width: 3px;
+}
+
+.newArrivals {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.productsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 481px;
+}
+
+.productsImage {
+    border-radius: 20px;
+}
+
+.productName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 16px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rating {
+    display: flex;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.price {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 8.26px;
+}
+
+.viewAllButton {
+    display: flex;
+    width: 218px;
+    height: 52px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
