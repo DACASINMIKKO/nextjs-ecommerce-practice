@@ -3,6 +3,7 @@ import styles from "./BottomCover.module.css";
 import Image from "next/image";
 import Star from "../../public/Star.png";
 import HalfStar from "../../public/HalfStar.png";
+import productImage from "../../public/product-tshirt.png";
 
 const BottomCover = ({ title, products }) => {
   const generateStars = (rating) => {
@@ -28,7 +29,7 @@ const BottomCover = ({ title, products }) => {
             <div key={item.id}>
               <Image
                 className={styles.productsImage}
-                src={item.picture}
+                src={productImage}
                 height={298}
                 width={295}
               />
