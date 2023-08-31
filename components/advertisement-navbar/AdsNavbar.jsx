@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "./AdsNavbar.module.css";
 import Image from "next/image";
-import closeButton from '../../public/Frame.png'
+import closeButton from "../../public/Frame.png";
 
 const AdsNavbar = () => {
   return (
