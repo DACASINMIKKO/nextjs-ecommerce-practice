@@ -1,9 +1,14 @@
 import BrandsComponent from "@/components/brands/BrandsComponent";
 import HomePageCover from "@/components/homepage-cover/HomePageCover";
 import BottomCover from "@/components/bottom-cover/BottomCover";
+import { notFound } from "next/navigation";
 
 export default async function Home() {
   const products = await getProducts();
+
+  if (!products) {
+    notFound();
+  }
   //console.log(products);
 
   const sortedProductsByDate = products.sort((a, b) => {
@@ -28,12 +33,9 @@ export default async function Home() {
 }
 
 export const getProducts = async () => {
-  try {
-    const response = await fetch("http://localhost:5000/products", {
-      cache: "no-store",
-    });
-    return response.json();
-  } catch (e) {
-    console.log(e);
-  }
+  const response = await fetch("http://localhost:5000/products", {
+    cache: "no-store",
+  });
+  if (!response.ok) return undefined;
+  return response.json();
 };
