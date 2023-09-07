@@ -67,7 +67,7 @@ const FilterSidebar = () => {
         <div className="flex flex-col py-[24px] border-y-2 border-[#0000001A] gap-2">
           {filtersItem.map((item) => (
             <div
-              className="flex justify-between align-middle cursor-pointer"
+              className="flex justify-between align-middle cursor-pointer rounded-lg hover:bg-gray-300"
               key={item.name}
               onClick={() => {
                 handleCategoryFilter(item.name.toLowerCase());
@@ -105,7 +105,7 @@ const FilterSidebar = () => {
       </div>
       <div>
         <button
-          className="h-[48px] bg-black align-middle text-white w-[100%] rounded-[62px] text-[18px] font-[800]"
+          className="flex justify-center items-center h-[48px] bg-gray-400 text-white w-[100%] rounded-[62px] text-[18px] font-[800] hover:border-[3px] border-gray-500"
           onClick={handleFilterProducts}
         >
           Apply Filter

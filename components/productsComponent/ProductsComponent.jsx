@@ -69,14 +69,16 @@ const ProductsComponent = () => {
       {products.map((product) => (
         <div className="" key={product.id} onClick={() => {}}>
           <Image
-            className="rounded-[20px] mb-[16px] border-2 border-gray-300 hover:cursor-pointer"
+            className="rounded-[20px] mb-[16px] border-2 border-gray-300 hover:cursor-pointer hover:border-gray-500"
             src={productImage}
             height={298}
             width={295}
             alt="productImage"
           />
           <div className="mb-[8px] text-[#000] text-[20px] font-[700]">
-            <p className="hover:cursor-pointer">{product.name}</p>
+            <p className="hover:cursor-pointer hover:font-[800]">
+              {product.name}
+            </p>
           </div>
           <div className={styles.rating}>
             <div className="flex">{generateStars(product.rating)}</div>
