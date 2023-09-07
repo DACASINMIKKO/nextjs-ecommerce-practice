@@ -1,8 +1,12 @@
+"use client";
+
 import AdsNavbar from "@/components/advertisement-navbar/AdsNavbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import store from "@/redux/store/store";
+import { Provider } from "react-redux";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,10 +19,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AdsNavbar />
-        <Navbar />
-        {children}
-        <Footer />
+        <Provider store={store}>
+          <AdsNavbar />
+          <Navbar />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

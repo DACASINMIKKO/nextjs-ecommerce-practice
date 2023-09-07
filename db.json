@@ -2,12 +2,13 @@
     "products": [
         {
             "id": 1,
-            "name": "TSHIRTzxc",
+            "name": "Product 1",
             "price": 29.99,
             "rating": 4.5,
             "dateOfArrival": "2023-08-15",
             "sales": 250,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "t-shirts"
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "rating": 3.8,
             "dateOfArrival": "2023-07-23",
             "sales": 120,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "shorts"
         },
         {
             "id": 3,
@@ -25,7 +27,8 @@
             "rating": 4.2,
             "dateOfArrival": "2023-08-05",
             "sales": 450,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "hoodie"
         },
         {
             "id": 4,
@@ -34,7 +37,8 @@
             "rating": 4.0,
             "dateOfArrival": "2023-08-10",
             "sales": 80,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "jeans"
         },
         {
             "id": 5,
@@ -43,7 +47,8 @@
             "rating": 4.8,
             "dateOfArrival": "2023-07-18",
             "sales": 650,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "shorts"
         },
         {
             "id": 6,
@@ -52,7 +57,8 @@
             "rating": 3.6,
             "dateOfArrival": "2023-08-02",
             "sales": 180,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "t-shirts"
         },
         {
             "id": 7,
@@ -61,7 +67,8 @@
             "rating": 4.3,
             "dateOfArrival": "2023-07-29",
             "sales": 300,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "jeans"
         },
         {
             "id": 8,
@@ -70,7 +77,8 @@
             "rating": 3.9,
             "dateOfArrival": "2023-08-12",
             "sales": 210,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "hoodie"
         },
         {
             "id": 9,
@@ -79,7 +87,8 @@
             "rating": 4.2,
             "dateOfArrival": "2023-07-14",
             "sales": 150,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "shirts"
         },
         {
             "id": 10,
@@ -88,7 +97,8 @@
             "rating": 4.6,
             "dateOfArrival": "2023-08-08",
             "sales": 420,
-            "picture": "productTshirt"
+            "picture": "productTshirt",
+            "category": "shirts"
         }
     ]
 }
