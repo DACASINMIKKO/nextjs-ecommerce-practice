@@ -36,7 +36,7 @@ const FilterSidebar = () => {
   };
 
   const handleFilterProducts = () => {
-    if (minPrice <= maxPrice) {
+    if (minPrice <= maxPrice && maxPrice !== 0) {
       const price = {
         data: data,
         min: minPrice,
